@@ -83,7 +83,7 @@
 	.bg-img {
 		width: 100px;
 		height: 100px;
-		background-image: url('./image.png');
+		background: url('./image.png') red;
 		background-size: 100px;
 	}
 	img {
