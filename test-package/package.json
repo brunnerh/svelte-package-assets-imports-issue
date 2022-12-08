@@ -1,0 +1,18 @@
+{
+	"name": "test-package",
+	"description": "A test package containing a Svelte component with asset dependencies.",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "./index.js",
+	"svelte": "./index.js",
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^1.4.0",
+		"svelte": "^3.53.1",
+		"vite": "^3.2.5"
+	},
+	"dependencies": {},
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build"
+	}
+}
